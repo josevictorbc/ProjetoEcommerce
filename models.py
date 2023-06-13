@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 
-# Criando a classe produto
 class Produto(BaseModel):
     modelo: str
     marca: str

@@ -1,6 +1,5 @@
 import psycopg2
 
-# Conexão com o Banco de Dados PostgreSQL
 def conexao():
     return psycopg2.connect(
         database="postgres",
